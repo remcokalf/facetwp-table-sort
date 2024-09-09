@@ -47,8 +47,9 @@ class FacetWP_Facet_Table_Sort_Addon extends FacetWP_Facet {
             $asc_or_desc = strtolower( reset( $choice['query_args']['orderby'] ) );
             $asc_or_desc_class = isset($asc_or_desc) ? ' ' . $asc_or_desc : '';
 
-            // Set default icon with hook to change
-            $icon = apply_filters( 'facetwp_table_sort_icon', '&#8963;');
+            // Set default sort icon with a hook to change it
+            $icon = '&#8963;';
+            $icon = apply_filters( 'facetwp_table_sort_icon', $icon, $params, $choice );
 
             $classes = in_array( $key, $selected_values ) ? ' checked' : '';
             $classes .= $asc_or_desc_class;

@@ -1,0 +1,8 @@
+.facetwp-content.type-table_sort .field-data-source {
+  display: none;
+}
+
+/* support only 2 sort options */
+.facetwp-content.type-table_sort .qb-wrap > div:not(.qb-row):nth-child(3) {
+  display: none;
+}

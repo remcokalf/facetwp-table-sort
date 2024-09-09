@@ -1,0 +1,53 @@
+.facetwp-facet.facetwp-type-table_sort {
+  margin-bottom: 0;
+  min-height: 1em;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-heading {
+  display: block;
+  float: left;
+  position: relative;
+  top: 4px;
+  margin-right: 12px;
+}
+
+.facetwp-type-table_sort.is-active .facetwp-table-sort-heading {
+  color: #6C8AFF;
+  cursor: pointer;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-options {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option {
+  cursor: pointer;
+  line-height: 1;
+  display: block;
+  opacity: 0.5;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option .icon {
+  font-size: 13px;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option.asc .icon {
+  top: 4px;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option.desc .icon {
+  transform: rotate(180deg);
+  top: -4px;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option:hover,
+.facetwp-type-table_sort .facetwp-table-sort-option.checked {
+  opacity: 1;
+  color: #6C8AFF;
+}
+

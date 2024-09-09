@@ -1,0 +1,24 @@
+.facetwp-content.type-table_sort .field-data-source {
+  display: none;
+}
+
+/* Support only 1 sort option: hide its name, the primary sort order (forced to ASC/DESC in PHP), and the "Add sort" button */
+.facetwp-content.type-table_sort .qb-row .item-name,
+.facetwp-content.type-table_sort .qb-row .item-name + .qb-order-row .qb-order,
+.facetwp-content.type-table_sort .qb-row ~ div:not(.qb-row) {
+  display: none;
+}
+
+/* Hide leftover sort options (e.g. after switching from a Sort facet), they are ignored */
+.facetwp-content.type-table_sort .qb-row:not(:first-child) {
+  display: none;
+}
+
+.facetwp-content.type-table_sort .facetwp-row .fs-wrap {
+  display: inline-block;
+  float: none;
+}
+
+.facetwp-content.type-table_sort .qb-row > div > input[type="text"]:placeholder-shown {
+  border-color: var(--red);
+}

@@ -1,0 +1,84 @@
+# Copyright (C) 2026 FacetWP, LLC
+# This file is distributed under the same license as the FacetWP - Table Sort plugin.
+# Generated with WP-CLI: wp i18n make-pot . languages/facetwp-table-sort.pot --domain=facetwp-table-sort
+msgid ""
+msgstr ""
+"Project-Id-Version: FacetWP - Table Sort 0.1\n"
+"Report-Msgid-Bugs-To: https://facetwp.com/help-center/get-support/\n"
+"Last-Translator: Matt Gibbs <hello@facetwp.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-12T12:31:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: facetwp-table-sort\n"
+
+#. Plugin Name of the plugin
+#: facetwp-table-sort.php
+msgid "FacetWP - Table Sort"
+msgstr ""
+
+#. Description of the plugin
+#: facetwp-table-sort.php
+msgid "Table Sort facet type"
+msgstr ""
+
+#. Author of the plugin
+#: facetwp-table-sort.php
+msgid "FacetWP, LLC"
+msgstr ""
+
+#. Author URI of the plugin
+#: facetwp-table-sort.php
+msgid "https://facetwp.com/"
+msgstr ""
+
+#: class-table-sort.php:7
+msgid "Table Sort"
+msgstr ""
+
+#: class-table-sort.php:41
+msgid "Reset sort by {label}"
+msgstr ""
+
+#: class-table-sort.php:85
+msgid "{label} (asc)"
+msgstr ""
+
+#: class-table-sort.php:87
+msgid "{label} (desc)"
+msgstr ""
+
+#: class-table-sort.php:120
+msgid "Table column heading"
+msgstr ""
+
+#: class-table-sort.php:121
+msgid "The heading text for the table column that this facet is placed above. Can contain HTML. By default it will display to the left of the sort icons and will trigger a sort reset when clicked. If left empty, only the sort icons will be displayed. The heading text is also used in User Selections and title attributes (tooltips) if the Sort label is left empty."
+msgstr ""
+
+#: class-table-sort.php:130
+msgid "Sort column by"
+msgstr ""
+
+#: class-table-sort.php:131
+msgid "Choose the field to sort this table column by. Both sort directions (ASC and DESC) are created automatically, so you don't need to add a descending sort yourself. Optionally, click + to add a secondary (fallback) sort for items with equal values. Its order (ASC or DESC) is used in both sort directions. The sort label is used in the User Selections facet and in the sort options' title attributes (tooltips), e.g. 'Sort by {sort label} (asc)'. If it is empty, the 'Table column heading' text is used instead. Don't leave both settings empty. To display only the column heading, for a column that should not be sortable, remove the sort option with the − icon and add a heading text."
+msgstr ""
+
+#: class-table-sort.php:232
+msgid "Sort by"
+msgstr ""
+
+#: class-table-sort.php:249
+msgid "Sort by {label} (asc)"
+msgstr ""
+
+#: class-table-sort.php:251
+msgid "Sort by {label} (desc)"
+msgstr ""
+
+#: class-table-sort.php:255
+msgid "Sort by {label}"
+msgstr ""

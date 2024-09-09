@@ -1,0 +1,55 @@
+:root {
+  --facetwp-table-sort-selected: #6C8AFF;
+}
+
+.facetwp-facet.facetwp-type-table_sort {
+  margin-bottom: 0;
+  min-height: 1em;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-heading {
+  display: block;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-heading.is-active {
+  color: var(--facetwp-table-sort-selected);
+  cursor: pointer;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option {
+  cursor: pointer;
+  line-height: 1;
+  display: block;
+  opacity: 0.5;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option .facetwp-table-sort-icon {
+  font-size: 13px;
+  line-height: 1;
+  display: block;
+  padding: 2px 0;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option .facetwp-table-sort-icon svg {
+  display: block;
+  width: 0.7em;
+  height: auto;
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option.desc .facetwp-table-sort-icon {
+  transform: rotate(180deg);
+}
+
+.facetwp-type-table_sort .facetwp-table-sort-option:hover,
+.facetwp-type-table_sort .facetwp-table-sort-option.selected {
+  opacity: 1;
+  color: var(--facetwp-table-sort-selected);
+}

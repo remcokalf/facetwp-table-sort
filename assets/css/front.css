@@ -5,7 +5,7 @@
 .facetwp-facet.facetwp-type-table_sort {
   margin-bottom: 0;
   min-height: 1em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 12px;
 }
